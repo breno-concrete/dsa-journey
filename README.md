@@ -19,5 +19,7 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Commit progress daily
 
 ## Progress
-- Day 1: Arrays — Two Sum
+- Day 1: Arrays - Two Sum
+- Day 2: Arrays - Prefix Sum
+
 

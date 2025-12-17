@@ -10,8 +10,9 @@ def prefix_sum(arr):
 
     return _sum
 
+# fatiar o array
 def sumRange(right, left):
     if left > 0 or right > 0:
-
+        return _sum[right] - _sum[left-1]
     else:
-      
+        return _sum[right or left]
