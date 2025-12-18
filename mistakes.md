@@ -10,3 +10,7 @@
 - CORRETO: "if right > 0 and left > 0:"
 - MOTIVO: assim ele garante que o que está sendo pedido é um intervalo "fatiado" e não um que começa no índice 0
 
+## Arrays/ Kadane
+- ERRO: Não atualizar o "currentSum" após atribuir a ele o valor 0, ou seja, não começei um novo subarray como a lógica pede
+- CORRETO: "currentSum += i" dentro do loop
+- MOTIVO: assim ele garante que o que está começando um novo Subarray de somas, pois coloca o próximo elemento para ser somado.

@@ -21,5 +21,4 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 ## Progress
 - Day 1: Arrays - Two Sum
 - Day 2: Arrays - Prefix Sum
-
-
+- Day 3: Arrays - Kadane (Maximum Subarray)

@@ -30,3 +30,19 @@
 
 # Armadilhas comuns
 - Não cosniderar a subtração pelo índice anterior ao do início do intervalo
+
+## Kadane
+
+# Quando usar? 
+- quando queremos o subarray com a maior soma entre eles
+
+# Ideia central
+- Criar variáveis "maxSub" e "currentSum", que serão atualizadas a cada iteração sobre o array.
+- Iterar sobre o array, se "currentSum" for menor que zero, nós atirbuimos a ela o valor 0 para dar início a um novo subarray (a lógica diz que quando a soma atual é um número negativo, sempre teremos que comeaçar um novo subarray).
+- Vemos qual o maior valor entre "maxSub" e "currentSum" e atribuimos o resultado a "maxSub".
+- Ao final, a função retorna maxSub.
+# Complexidade
+- O(n)
+
+# Armadilhas comuns
+- Não inciar um novo subarray (currentSum = 0)
