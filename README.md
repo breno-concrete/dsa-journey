@@ -22,3 +22,7 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Day 1: Arrays - Two Sum
 - Day 2: Arrays - Prefix Sum
 - Day 3: Arrays - Kadane (Maximum Subarray)
+- Day 4: Binary Search
+- Day 5: Arrays e Linked Lists
+- Day 6: Selection Sort
+- Day 7: Recusion & Call Stack

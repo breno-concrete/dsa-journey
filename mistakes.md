@@ -14,3 +14,9 @@
 - ERRO: Não atualizar o "currentSum" após atribuir a ele o valor 0, ou seja, não começei um novo subarray como a lógica pede
 - CORRETO: "currentSum += i" dentro do loop
 - MOTIVO: assim ele garante que o que está começando um novo Subarray de somas, pois coloca o próximo elemento para ser somado.
+
+
+## Array/ Binary Search
+- ERRO: Não atualizar os índices corretamente (Low & HIGH)
+- CORRETO: Se guess > target; low = mid + 1.  Se guess < target; high = mid - 1.
+- MOTIVO: Assim ele descarta as metades corretas. 
