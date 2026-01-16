@@ -122,3 +122,16 @@
 # Complexidade 
 - Random Access O(n)
 - Adicionar/ Remover elemento O(1)
+
+## Quick Sort
+
+# Quando usar?
+- quando queremos ordenar uma lista numérica.
+
+# Ideia central
+- Escolhemos um valor da lista para se tornar o "pivô", a partir dele separamos em dois arrays, um que contêm valores menores que o pivô e outro que contêm valores maiores que o pivô. Usamos recursividade para os subarrays, ordenando a lista inteira. 
+
+
+# Complexidade 
+- Worst case: O(n²)
+- Best/Avarage case: O(n log n )

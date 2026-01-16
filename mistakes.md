@@ -20,3 +20,6 @@
 - ERRO: Não atualizar os índices corretamente (Low & HIGH)
 - CORRETO: Se guess > target; low = mid + 1.  Se guess < target; high = mid - 1.
 - MOTIVO: Assim ele descarta as metades corretas. 
+
+## Array/ Quick Sort
+- ERRO: Utilizar quick sort craindo mais listas não é tão eficiente, é necessário um maneira mais eficaz de uso de memória.

@@ -26,3 +26,4 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Day 5: Arrays e Linked Lists
 - Day 6: Selection Sort
 - Day 7: Recusion & Call Stack
+- Day 8: Quick Sort
