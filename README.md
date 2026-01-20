@@ -28,3 +28,4 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Day 7: Recusion & Call Stack
 - Day 8: Quick Sort
 - Day 9: Hash Tables (Concept)
+- Day 10: Hash Tables (Pratice)

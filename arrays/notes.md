@@ -135,3 +135,17 @@
 # Complexidade 
 - Worst case: O(n²)
 - Best/Avarage case: O(n log n )
+
+## Hash Tables
+
+# Quando usar?
+- quando queremos acesso rápido a itens (chave, valor) em uma lista
+
+# Ideia central
+- Cada chave (string, int...) está associado a um valor. Ex: "nome": "Breno".
+- Com um Hash FUnction (função que retorna um índice para o par chave valor), conseguimos obter acesso constante a infomação.
+
+
+# Complexidade 
+- Worst case: O(n)
+- Best/Avarage case: O(1)

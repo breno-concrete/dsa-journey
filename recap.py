@@ -1,21 +1,18 @@
-# quick sort
-# escolher um pivô, e criar dois subarrays com numeros menores e maiores que eles, usando recursão pra ordenar eles
+#revision from last day
 
-def qsort(list):
-    if len(list) < 2: #caso base
-        return list
+phonebook = {}
+
+phonebook["Breno"] = "61982744166"
+phonebook["Lusiana"] = "61984749629"
+phonebook["Francisco"] = "61984033326"
+
+
+def find(nome):
+    if phonebook.get(nome):
+        print(phonebook[nome])
     else:
-        
-        p_index = (len(list))// 2
-        pivot = list[p_index]
+        print("Não encontraddo")
 
-        left = list[:p_index] + list[p_index+1:]
-        lower = [i for i in left if i <= pivot]
-        higher = [i for i in left if i > pivot]
-        return qsort(lower) + [pivot] + qsort(higher)
-
-
-bay = [1,4,56,768,89,4,2,13,5,7,8]
-
-print(qsort(bay))
-
+while True:
+    src = input('Nome: ')
+    find(src)
