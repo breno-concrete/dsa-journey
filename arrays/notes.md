@@ -149,3 +149,24 @@
 # Complexidade 
 - Worst case: O(n)
 - Best/Avarage case: O(1)
+
+## Graphs
+
+# Quando usar?
+- Em situações onde temos ligações entre objetos (Nós e arestas).
+
+# Ideia central
+- Cada nó (string, int...) está interligado com outro por meio de uma aresta
+
+## BFS
+
+# Quando usar?
+- Quando temos um grafo e queremos saber qual o "caminho mais rápido", qual dos nós tem o que queremos e qual deles esta´masi perto.
+
+# Ideia central
+- Se cria uma fila (FIFO), e cada nó do grafo entra nela.
+- Por ordem, primeiro se adicona e analisa as conexões primárias, cada vez que se analisa uma conexão, se adicona ao final da fila as conexões feitas por ela (conexões secundárias).
+-  Até a fila estar vazia ou encontrarmos o que desejamos.
+
+# Complexidade 
+- *Next Session*

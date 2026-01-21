@@ -29,3 +29,5 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Day 8: Quick Sort
 - Day 9: Hash Tables (Concept)
 - Day 10: Hash Tables (Pratice)
+- Day 11: Graphs and BFS (Concept).
+
