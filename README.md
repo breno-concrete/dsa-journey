@@ -30,4 +30,5 @@ Build a strong foundation in problem solving, data structures, and algorithms th
 - Day 9: Hash Tables (Concept)
 - Day 10: Hash Tables (Pratice)
 - Day 11: Graphs and BFS (Concept).
+- Day 12: LeetCode (Binary Search - [35. Search Insert Position, 278. First Bad Version, 374. Guess Number Higher or Lower])
 
