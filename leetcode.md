@@ -35,3 +35,17 @@
 - Com um loop for, pegamos o primeiro elemento e subtraimos do target, nos gerando um componente;
 - se esse componente existe dentro do HashMap, nós retornamos um array com o indice do componente e do numero comparado
 - caso não exista dentro do HashMap, nós adicionamos o número que foois comparado.
+
+
+# Valid Parentheses
+
+## COmplexidade
+- O(n)
+
+## Ideia Central
+- Usamos um HashMap para associar cada parenteses aberto(valor) ao seu parenteses fechado(chave).
+- Criamos uma pilha vazia.
+- Iteramos sobre a String dada.
+- Se o elemento for uma chave de map, a pilha não pode estar vazia e o elemento do topo tem que ser igual ao valor relacionado ao elemento da chave. Se isso ocorrer, tiramos o elemento do topo da pilha, caso o contrário, retorna false.
+- Se o elemento for um valor de map, nós o adicionamos a pilha.
+- Ao final, se a pilha estiver vazia, retorna true.
