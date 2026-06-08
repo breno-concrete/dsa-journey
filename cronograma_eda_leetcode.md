@@ -56,7 +56,7 @@
 
 ---
 
-## Dia 1 — Array Dinâmico (Criação)
+## ~~Dia 1 — Array Dinâmico (Criação)~~
 
 | Bloco | Tarefa exata |
 |---|---|
@@ -67,7 +67,7 @@
 
 ---
 
-## Dia 2 — Array Dinâmico (Operações)
+## ~~Dia 2 — Array Dinâmico (Operações)~~
 
 | Bloco | Tarefa exata |
 |---|---|
@@ -79,6 +79,8 @@
 ---
 
 ## Dia 3 — Strings em C + Tracing Manual 🖊️
+
+terminar a seção de C do dia anterior
 
 | Bloco | Tarefa exata |
 |---|---|

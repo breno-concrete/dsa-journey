@@ -8,6 +8,38 @@ typedef struct{
     int capacity;
 } Vector;
 
+int get(Vector* v, int index){
+    if(index >= v->size || index < 0){
+        return -1;
+    }
+
+    return v->data[index];
+}
+
+
+void remove_at(Vector* v, int index){ // ERRO REFAZER DEPOIS
+    if(index >= v->size || index < 0){
+        return;
+    }
+
+    int length = v->size;
+
+    int* newArray = (int*) malloc((length - 1) * sizeof(int));
+
+    if(newArray == NULL){
+            return;
+        }
+
+    for(int i = 0; i < length; i++){
+        if(i != index){
+            push(newArray, v->data[i]);
+        }
+
+    }
+
+    v->data = newArray;
+
+}
 
 
 Vector* create(int initial_capacity){
@@ -74,6 +106,9 @@ int main(void) {
 
     print(v1);
 
+    remove(v1, 1);
+
+    print(v1);
 
     free(v1->data);
     free(v1);
