@@ -84,8 +84,8 @@ terminar a seção de C do dia anterior
 
 | Bloco | Tarefa exata |
 |---|---|
-| 📖 Conceito | Ler sobre **strings em C**: `char[]` vs `char*`, terminador `\0`, por que `strlen` é O(n) (precisa percorrer até achar `\0`). Diferença pra Java onde `.length()` é O(1) |
-| 🔵 C | ⚠️ **TRACING MANUAL (sem computador).** Pegar papel e caneta. Desenhar a memória (array de chars) pra string `"hello\0"`. Depois simular no papel: "como `my_strlen` percorre essa memória?". Desenhar o ponteiro avançando byte a byte. Depois: implementar `my_strlen()` e `my_strcmp()` em `my_string.c` no computador |
+| ~~📖 Conceito~~ | Ler sobre **strings em C**: `char[]` vs `char*`, terminador `\0`, por que `strlen` é O(n) (precisa percorrer até achar `\0`). Diferença pra Java onde `.length()` é O(1) |
+| ~~🔵 C | ⚠️ **TRACING MANUAL (sem computador).** Pegar papel e caneta. Desenhar a memória (array de chars) pra string `"hello\0"`. Depois simular no papel: "como `my_strlen` percorre essa memória?". Desenhar o ponteiro avançando byte a byte. Depois: implementar `my_strlen()` e `my_strcmp()` em `my_string.c` no computador |
 | 🟩 Java | **Papel (5 min):** Ler [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/). Input: "anagram", "nagaram". Abordagem: array de 26 int, incrementar pra s1, decrementar pra s2, verificar se tudo é 0. **Código (25 min):** Implementar. NÃO usar HashMap — usar `int[26]`. **Refletir (5 min):** Qual a complexidade? Por que `int[26]` é melhor que HashMap aqui? |
 | 📝 Caderno | **Padrão:** "Array de frequência (int[26]) → contar chars em O(n), espaço O(1) pois 26 é constante". **Complexidade:** "Tempo O(n). Espaço O(1)". **Erro:** ___. **Revisão:** reler Dia 2 + tentar reescrever `push()` do array dinâmico de cabeça (5 min) |
 
